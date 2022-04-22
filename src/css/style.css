@@ -4,7 +4,10 @@
   margin: 0%;
   padding: 0%;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;;
+  font-family: 'Roboto', sans-serif;
+}
+body{
+  background-color: rgba(187, 187, 187, 0.62);
 }
 header{
   display: flex;
@@ -59,8 +62,8 @@ header{
   line-height: 40px;
 }
 
-/*Estilização dos <li> sobrepondo o link*/
-#linkSobre{
+/*Estilização dos <lis> sobrepondo o link*/
+.links{
   text-decoration: none;
   color: inherit;
 }
@@ -141,6 +144,15 @@ header{
   font-weight: bold;
   color: rgb(32, 32, 32);
   font-family: 'Lato', sans-serif;
+}
+/*link da blue*/
+#blue{
+  text-decoration: none;
+  color: rgb(39, 143, 255);
+}
+#blue:hover{
+  color: rgb(0, 91, 189);
+
 }
 
 /*Icone github*/
