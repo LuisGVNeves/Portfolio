@@ -1,0 +1,27 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Portifolio para descrever meus trabalhos como programador web fullstack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuisGVNeves/Portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "programador",
+    "web"
+  ],
+  "author": "Luis Guilherme Vieira Neves",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LuisGVNeves/Portfolio/issues"
+  },
+  "homepage": "https://github.com/LuisGVNeves/Portfolio#readme",
+  "devDependencies": {
+
+  }
+}

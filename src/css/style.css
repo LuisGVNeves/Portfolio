@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;;
+}
+header{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1%;
+  width: 500px;
+  height: 40px;
+  border: 1px solid #000;
+
+}
+#main-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  margin-bottom: 3%;
+  border: 1px solid #000;
+  border-radius: 1%;
+  width: 1000px;
+  height: 650px;
+}
+
+/*Lista*/
+#main-container ul {
+  list-style-type: none;
+  width: 980px;
+  display: inline-flex;
+  /*Alinhar conteudo interno da lista*/
+  justify-content: center;
+}
+#main-container ul li {
+  display: inline-flex;
+  justify-content: center;
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 80px;
+  margin-right: 80px;
+  animation: botoes infinite linear 1.1s;
+}
+#main-container ul li:hover{
+  color: #fff;
+  background-color: #000;
+  cursor: pointer;
+  width: 180px;
+  height: 50px;
+}
+
+/*Animações botões*/
+@keyframes botoes {
+  0%{
+    padding-left: 2px;
+    font-weight: 400;
+  }
+  20%{
+    padding-left: 4px;
+    font-weight: 500;
+  }
+  40%{
+    padding-left: 6px;
+    font-weight: 600;
+  }
+  60%{
+    padding-right: 5px;
+    font-weight: 700;
+  }
+  80%{
+    padding-right: 4px;
+    font-weight: 800;
+  }
+  100%{
+    padding-left: 2px;
+    font-weight: bold;
+  }
+}
+
+#img{
+  width: 200px;
+  height: 180px;
+  margin-top: 30px;
+  margin-right: 680px;
+  border: 1px solid #000;
+}
