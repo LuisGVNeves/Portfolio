@@ -18,8 +18,6 @@ header{
   margin-top: 1%;
   width: 500px;
   height: 40px;
-  border: 1px solid #000;
-
 }
 #main-container{
   display: flex;
@@ -112,11 +110,16 @@ header{
   margin-right: 680px;
   border: 1px solid #000;
 }
+#mypic{
+  width: 200px;
+  height: 180px;
+}
+
 /*Nome paragrafo*/
 #img-container #nome{
   width: 280px;
   font-size: 35px;
-  margin-top: -25px;
+  margin-top: -190px;
   margin-left: 210px;
   letter-spacing: 2px;
   text-align: center;
