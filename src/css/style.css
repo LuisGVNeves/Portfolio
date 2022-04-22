@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap');
 * {
   margin: 0%;
   padding: 0%;
@@ -56,6 +56,13 @@ header{
   cursor: pointer;
   width: 180px;
   height: 50px;
+  line-height: 50px;
+}
+
+/*Estilização dos <li> sobrepondo o link*/
+#linkSobre{
+  text-decoration: none;
+  color: inherit;
 }
 
 /*Animações botões*/
@@ -86,10 +93,43 @@ header{
   }
 }
 
-#img{
+#img-container{
   width: 200px;
   height: 180px;
-  margin-top: 30px;
+  margin-top: 80px;
   margin-right: 680px;
   border: 1px solid #000;
+}
+/*Nome paragrafo*/
+#img-container #nome{
+  width: 280px;
+  font-size: 35px;
+  margin-top: -25px;
+  margin-left: 210px;
+  letter-spacing: 2px;
+  text-align: center;
+  font-weight: bold;
+  color: rgb(32, 32, 32);
+}
+/*Cargo paragrafo*/
+#img-container #cargo{
+  width: 280px;
+  font-size: 19px;
+  margin-left: 210px;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-top: 22px;
+  font-weight: 600;
+  color: rgb(112, 112, 112);
+}
+/*Resumo paragrafo*/
+#resumo{
+  width: 680px;
+  margin-left: 215px;
+  text-align: justify;
+  margin-top: 40px;
+  letter-spacing: 1.1px;
+  font-weight: bold;
+  color: rgb(32, 32, 32);
+  font-family: 'Lato', sans-serif;
 }
